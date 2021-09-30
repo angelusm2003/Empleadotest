@@ -9,7 +9,6 @@ Se ocupo Intellij Comunnity Edition para este desarrollo
  http://localhost:8080/swagger-ui.html
 
 ![pantalla principal de swagger](https://raw.githubusercontent.com/angelusm2003/Empleadotest/master/assets/swagger.png)
-https://raw.githubusercontent.com/angelusm2003/Empleadotest/main/assets/swagger.png
 
 En ella se encuentran expuestos los metodos para el empleado en la opcion:
 
@@ -31,6 +30,20 @@ c) Los parametros son:
    username: angelr@correo.com
    password: password
    grant_type: password
+
+-Para crear un nuevo empleado es a traves del url en el metodo POST:
+
+http://localhost:8080/Employee
+
+Se debe especificar en el body la informacion con los parametros como aparecen en la imagen
+
+![Informacion enviada](https://raw.githubusercontent.com/angelusm2003/Empleadotest/master/assets/post_employee.png)
+
+-Para visualizar todos los empleados registrados es a traves de la url en el metodo GET:
+
+http://localhost:8080/Employee
+
+
    
 
 
