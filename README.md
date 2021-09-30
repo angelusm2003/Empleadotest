@@ -8,6 +8,8 @@ Se ocupo Intellij Comunnity Edition para este desarrollo
 
  http://localhost:8080/swagger-ui.html
 
+https://raw.githubusercontent.com/angelusm2003/Empleadotest/main/assets/swagger.png
+
 En ella se encuentran expuestos los metodos para el empleado en la opcion:
 
 -application-controller: Application Controller
