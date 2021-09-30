@@ -39,7 +39,10 @@ c) Los parametros son:
 
 http://localhost:8080/Employee
 
-Se debe especificar en el body la informacion con los parametros como aparecen en la imagen
+Se debe especificar un token valido (generado en el endpoint token) en headers como Authorization y como valor Bearer seguido del token , ejemplo:
+Bearer 5859465e-8fe5-4789-92ba-8b90992b65ef
+
+En el body la informacion con los parametros como aparecen en la imagen
 
 ![parametros del token](https://raw.githubusercontent.com/angelusm2003/Empleadotest/master/assets/post_employee.png)
 
@@ -52,6 +55,9 @@ Si la informacion se envia con exito aparece en el response el resultado
 ![parametros del token](https://raw.githubusercontent.com/angelusm2003/Empleadotest/master/assets/token_valido.png)
 
 4-Para visualizar todos los empleados registrados es a traves de la url en el metodo GET:
+
+Se debe especificar un token valido (generado en el endpoint token) en headers como Authorization y como valor Bearer seguido del token , ejemplo:
+Bearer 5859465e-8fe5-4789-92ba-8b90992b65ef
 
 http://localhost:8080/Employee
 
