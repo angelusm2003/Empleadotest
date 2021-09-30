@@ -8,6 +8,7 @@ Se ocupo Intellij Comunnity Edition para este desarrollo
 
  http://localhost:8080/swagger-ui.html
 
+![pantalla principal de swagger](https://raw.githubusercontent.com/angelusm2003/Empleadotest/master/assets/swagger.png)
 https://raw.githubusercontent.com/angelusm2003/Empleadotest/main/assets/swagger.png
 
 En ella se encuentran expuestos los metodos para el empleado en la opcion:
